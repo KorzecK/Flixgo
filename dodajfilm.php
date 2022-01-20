@@ -4,11 +4,10 @@
 	
 	if (isset($_POST['tytul']))
 	{
-		//Udana walidacja? Załóżmy, że tak!
+		//Flaga
 		$wszystko_OK=true;
 		
-		
-		//Sprawdź poprawność hasła
+		//Sprawdź opis
 		$opis = $_POST['opis'];
 		
 		if ((strlen($opis)<4) || (strlen($opis)>2000))
@@ -43,7 +42,6 @@
 				
 				if ($wszystko_OK==true)
 				{
-					//Hurra, wszystkie testy zaliczone, dodajemy gracza do bazy
 					
 					if ($polaczenie->query("INSERT INTO filmy (id, tytul, opis, gatunek, cena, ocena, img) VALUES (NULL, '$tytul', '$opis', '$gatunek', cast('$cena' as float), cast('$ocena' as float), '$img')"))
 					{
@@ -95,6 +93,9 @@
     <a href="adminpanel.php"><h1>FlixGo</h1></a>
     </div>
     <!--Panel dodania filmu do bazy. Administrator połączony z uprawnieniami administratora i z ui-->
+	<!--Testowanie fragmentu kodu-->
+	<!--Funckja "Dodawaniefilmów()" w klasie "Uprawnienia odnośnie filmów"-->
+	<!--Funkcja dodawania filmów działa na zasadzie wysyłanego formularza, który modyfikuje dane w bazie-->
 	<form method="post">
 	
 		Tytuł: <br /> <input type="text" value="<?php

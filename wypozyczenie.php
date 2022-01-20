@@ -40,16 +40,16 @@
             if($row)
             {
                 echo "<div id='baner_inf'>";      
-        echo "Film już wypożyczono<br><br><button id='zaloguj_sie'>";
-        echo "<a id='none' href="."stronafilmu.php?film=".$film.">Powróc do strony filmu</a></button><br></div>";
+				echo "Film już wypożyczono<br><br><button id='zaloguj_sie'>";
+				echo "<a id='none' href="."stronafilmu.php?film=".$film.">Powróc do strony filmu</a></button><br></div>";
             }
             else
             {
         $wynik = mysqli_query($polaczenie,"INSERT INTO wypozyczenia (id, user, id_filmu, test)VALUES (NULL, '$usr', '$film', 1)");
             
-          echo "<div id='baner_inf'>";      
-        echo "Pomyślnie wypożyczono film!<br><br><button id='zaloguj_sie'>";
-        echo "<a id='none' href="."stronafilmu.php?film=".$film.">Powróc do strony filmu</a></button><br></div>";
+				echo "<div id='baner_inf'>";      
+				echo "Pomyślnie wypożyczono film!<br><br><button id='zaloguj_sie'>";
+				echo "<a id='none' href="."stronafilmu.php?film=".$film.">Powróc do strony filmu</a></button><br></div>";
             }
         }
     }
@@ -60,6 +60,8 @@ else
 }
    
     mysqli_close($polaczenie);
+	//Refaktoryzacja kodu polegała na usunięciu błędu, tak aby użytkownik nie mógł wypożyczyć tego samego filmu dwa razy.
+	//Dodana została walidacja danych w bazie, aby sprawdzić czy użytkownik już nie wypożyczył pozycji.
 ?>
 
 
