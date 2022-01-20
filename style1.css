@@ -1,0 +1,295 @@
+body
+{
+    background-image: url('tlo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+    
+}
+
+#header
+{
+    background: linear-gradient(125deg, #000000, #cc2715, #741287);
+    background-size: 600% 600%;
+    animation: AnimationName 14s ease infinite;
+    text-align: center;
+    position:static;
+    width: 100%;
+    height: 10%;
+    float:left;
+    padding-top: 0px;
+    color:white;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1vw;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 19%}
+    50%{background-position:100% 82%}
+    100%{background-position:0% 19%}
+}
+
+#page
+{
+    text-align: center;
+    position:static;
+    width: 85%;
+    height: 80vh;
+    float:left;
+}
+
+#panel
+{
+    background: linear-gradient(125deg, #000000, #cc2715, #741287);
+    background-size: 300% 300%;
+    animation: AnimationName 14s ease infinite;
+    position:static;
+    width:15%;
+    height:80vh;
+    float:left;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+#panel2
+{
+    background: linear-gradient(125deg, #000000, #cc2715, #741287);
+    background-size: 300% 300%;
+    animation: AnimationName 14s ease infinite;
+    width:15%;
+    height:150vh;
+    float:left;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+    font-size: 2vh;
+}
+
+#User_panel
+{
+    background-color:red;
+    width:40%;
+    float:left;
+}
+
+#Biblioteka
+{
+    width: 60%;
+}
+
+#p_log
+{
+    background-color:rgba(0,0,0,0.3);
+    position:fixed;
+    float: left;
+    width:15%;
+    height:25%;
+    border-radius: 25px;
+    margin-top: 10vh;
+    text-align: center;
+    font-size:1vw;
+}
+
+#p_rej
+{
+    background-color:rgba(0,0,0,0.5);
+    border-radius: 25px;
+    width:30%;
+    height:60%;
+    text-align: center;
+    font-size:1vw;
+    padding: 1%;
+    margin-bottom:15%;
+    margin-top:10%;
+    margin-left: 35vw;
+    position:absolute;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+#zaloguj_sie
+{
+    background-color:rgba(0,0,0,0.1);
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+#avatar
+{
+    height:9vh;
+    width:4.5vw;
+}
+
+#avatar_u1
+{
+    height:16vh;
+    width:8vw;
+}
+
+#tbl_avt
+{
+    width:20%;
+    margin-left:2%;
+    text-align: left;
+}
+
+a:link
+{
+    color:white;
+    text-decoration: underline;
+}
+a:hover
+{
+    color:white;
+    text-decoration: underline;
+}
+a:visited
+{
+    color:white;
+    text-decoration: none;
+}
+a:active
+{
+    color:white;
+    text-decoration: underline;
+}
+
+
+#footer
+{
+    position:static;
+    width:100%;
+    height:8vh;
+    background-color: black;
+    float:left
+}
+
+.error
+{
+    color:red;
+}
+
+#none
+{
+    text-decoration: none;
+}
+
+
+#user
+{
+    margin-top:5vh;
+    position:sticky;
+    top: 0;
+    text-align: center;
+    background-color:rgba(0,0,0,0.2);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+/*------------*/
+#okldk
+{
+    height:41vh;
+    width:14vw;
+}
+.okladka:hover 
+{
+    box-shadow: 0 0 4px 3px rgba(140, 140, 186, 0.5);
+}
+#zpanelu
+{
+    padding:2%;
+    padding-left:3.5vh;
+}
+/*----------------------*/
+#avatar_u2
+{
+    height:28vh;
+    width:14vw;
+}
+#opisuser
+{
+    margin-left: 43vw;
+    text-align: center;
+    background-color: rgba(50,50,50,0.9);
+}
+
+/*------------------------------*/
+
+#baner_inf
+{
+    text-align: center;
+    background-color:rgba(0,0,0,0.8);
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 2vh;
+    padding:2vh;
+    position:fixed;
+    width:100%;
+    margin-top:10%;
+}
+
+#usunkonto
+{
+    background-color:rgba(255,0,0,0.3);
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    font-family: 'Advent Pro', sans-serif;
+}
+/*----------------*/
+#lot_text
+{
+    width:400px;
+    height:200px;
+}
+
+/*-----------------*/
+#button_blue
+    {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+
+#oklbig
+    {
+        height:64vh;
+        width:22vw;
+    }
+
+#opisfilmu
+    {
+    margin-left:20%;
+    margin-right:20%;
+    }
+
+#reject
+    {
+    background-color: #ee2233;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+
+#opsflm
+    {
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+    background-color: rgba(50,50,50,0.3);
+    }

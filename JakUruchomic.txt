@@ -1,0 +1,9 @@
+1. Do działania potrzebny jest zainstalowany pakiet XAMPP, lub wejście na stronę https://flixgoo.000webhostapp.com/index.php (loginy i hasła podane niżej)
+2. W przypadku XAMPP - oczyszczamy folder htdocs w miesjcu, gdzie XAMPP jest zainstalowany, a następnie wrzucamy wszystkie pliki do folderu htdocs
+3. Uruchamiamy usługe XAMPP - w panelu aplikacji dajemy start na pierwsze dwie zakładki (Apache i MySQL)
+4. W przeglądarce wpisujemy 127.0.0.1/phpmyadmin, aby otworzyć panel phpmyadmin
+5. Tworzymy bazę danych o nazwie "flixgo", otwieramy ją i wchodzimy w zakładkę "import" w górnym pasku
+6. Importujemy plik o nazwie "flixgo.sql" z paczki plików - utworzą nam się podstawowe tabele potrzebne do działania strony
+7. W zaimportowanych danych mamy użytkownika (login: User hasło:12345678) oraz admnistratora (login:admin hasło:admin)
+8. W przeglądarce wpisujemy 127.0.0.1 - to nasza strona główna, do której możemy zalogować się użytkownikiem
+9. Aby zalogować się na konto administratora, musimy być wylogowani z konta użytkownika i wejść w 127.0.0.1/admin.php
