@@ -2,6 +2,9 @@ PHP 7.3.32
 CSS 4.15
 HTML5
 
+https://github.com/KorzecK/Flixgo.git
+https://flixgoo.000webhostapp.com/index.php
+
 Standard kodowania:
 Zmienne jako polskie nazwy z małych liter
 Funckje z małych liter (angielskie nazwy funkcji z PHP)
