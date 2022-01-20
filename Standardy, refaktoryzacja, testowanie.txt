@@ -1,0 +1,16 @@
+PHP 7.3.32
+CSS 4.15
+HTML5
+
+Standard kodowania:
+Zmienne jako polskie nazwy z małych liter
+Funckje z małych liter (angielskie nazwy funkcji z PHP)
+Używanie jednego pliku z zapisanymi danymi do połączenia z bazą, a następenie odnoszenie się do niego
+Używanie wcięć, aby wyróżnić dane fragmenty kodu
+
+Refaktoryzacja:
+W pliku "wypozyczenia.php", dodana obsługa błędu. Dodanie funkcjonalności, że użytkownik nie może wypożyczyć filmu dwa razy i tym samym dodawać rekordów w bazie.
+
+Testowanie:
+W pliku "dodajfilm.php" następuje testowanie funckji "DodawanieFilmów()" z klasy "Uprawnienia odnośnie filmów". 
+Administrator może dodać film do bazy przy pomocy wysyłanego formularza.
